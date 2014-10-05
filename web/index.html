@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Rejestracja</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="resources/style/style.css" type="text/css"/>
+    </head>
+    <body class="section1"></br>
+        <div class="section2">
+            <div class="section3"><h1 class="h1">Rejestracja użytkownika</h1></div>
+            <br>
+            <form method="post" action="confirm.jsp">
+                <table>
+                    <tr>
+                        <td><label for="imie">Imię</label></td>
+                        <td><input type="text" name="i" id="imie"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nazwisko">Nazwisko</label></td>
+                        <td><input type="text" name="n" id="nazwisko"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail</label></td>
+                        <td><input type="text" name="em" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Płeć</td>
+                        <td><input type="radio" name="p" value="kobieta" id="kobieta">
+                            <label for="kobieta">Kobieta</label><br>
+                            <input type="radio" name="p" value="mężczyzna" id="mężczyzna">
+                            <label for="mężczyzna">Mężczyzna</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="wojewodztwo">Województwo</label></td>
+                        <td>
+                            <select name="w" id="wojewodztwo">
+                                <option>dolnośląskie</option>
+                                <option>kujawsko-pomorskie</option>
+                                <option>lubelskie</option>
+                                <option>lubuskie</option>
+                                <option>łódzkie</option>
+                                <option>małopolskie</option>
+                                <option>mazowieckie</option>
+                                <option>opolskie</option>
+                                <option>podkarpackie</option>
+                                <option>podlaskie</option>
+                                <option>pomorskie</option>
+                                <option>śląskie</option>
+                                <option>świętkorzyskie</option>
+                                <option>warmińsko-mazurskie</option>
+                                <option>wielkopolskie</option>
+                                <option>zachodniopomorskie</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table><br>
+                <input type="submit" value="Zatwierdź" />
+            </form>
+        </div>
+    </body>
+</html>
